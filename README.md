@@ -1,2 +1,2 @@
 # PocketVJpro
-Scripts used on PocketVJpro Ubuntu based media servers
+Scripts and CP used on PocketVJpro Ubuntu based media servers.
