@@ -1,0 +1,67 @@
+<!DOCTYPE patchbay>
+<patchbay name="" version="0.4.5">
+ <output-sockets>
+  <socket type="jack-audio" name="MPlayer 0" client="MPlayer \[[0-9]+\]" exclusive="off">
+   <plug>out_0</plug>
+  </socket>
+  <socket type="jack-audio" name="MPlayer 1" client="MPlayer \[[0-9]+\]" exclusive="off">
+   <plug>out_1</plug>
+  </socket>
+  <socket type="jack-audio" name="MPlayer 2" client="MPlayer \[[0-9]+\]" exclusive="off">
+   <plug>out_2</plug>
+  </socket>
+  <socket type="jack-audio" name="MPlayer 3" client="MPlayer \[[0-9]+\]" exclusive="off">
+   <plug>out_3</plug>
+  </socket>
+  <socket type="jack-audio" name="MPlayer 4" client="MPlayer \[[0-9]+\]" exclusive="off">
+   <plug>out_4</plug>
+  </socket>
+  <socket type="jack-audio" name="MPlayer 5" client="MPlayer \[[0-9]+\]" exclusive="off">
+   <plug>out_5</plug>
+  </socket>
+  <socket type="jack-audio" name="Pulseaudio front-left" client="PulseAudio JACK Sink" exclusive="on">
+   <plug>front-left</plug>
+  </socket>
+  <socket type="jack-audio" name="Pulseaudio front-right" client="PulseAudio JACK Sink" exclusive="on">
+   <plug>front-right</plug>
+  </socket>
+ </output-sockets>
+ <input-sockets>
+  <socket type="jack-audio" name="System 1" client="system" exclusive="off">
+   <plug>playback_1</plug>
+  </socket>
+  <socket type="jack-audio" name="System 2" client="system" exclusive="off">
+   <plug>playback_2</plug>
+  </socket>
+  <socket type="jack-audio" name="System 3" client="system" exclusive="off">
+   <plug>playback_3</plug>
+  </socket>
+  <socket type="jack-audio" name="System 4" client="system" exclusive="off">
+   <plug>playback_4</plug>
+  </socket>
+  <socket type="jack-audio" name="System 5" client="system" exclusive="off">
+   <plug>playback_5</plug>
+  </socket>
+  <socket type="jack-audio" name="System 6" client="system" exclusive="off">
+   <plug>playback_6</plug>
+  </socket>
+  <socket type="jack-audio" name="System 11" client="system" exclusive="on">
+   <plug>playback_11</plug>
+  </socket>
+  <socket type="jack-audio" name="System 12" client="system" exclusive="on">
+   <plug>playback_12</plug>
+  </socket>
+ </input-sockets>
+ <slots/>
+ <cables>
+  <cable type="jack-audio" output="MPlayer 0" input="System 1"/>
+  <cable type="jack-audio" output="MPlayer 1" input="System 2"/>
+  <cable type="jack-audio" output="MPlayer 2" input="System 3"/>
+  <cable type="jack-audio" output="MPlayer 3" input="System 4"/>
+  <cable type="jack-audio" output="MPlayer 4" input="System 5"/>
+  <cable type="jack-audio" output="MPlayer 5" input="System 6"/>
+  <cable type="jack-audio" output="Pulseaudio front-left" input="System 11"/>
+  <cable type="jack-audio" output="Pulseaudio front-right" input="System 12"/>
+ </cables>
+</patchbay>
+
