@@ -13,7 +13,7 @@ sleep 1
 #vlc --no-video-title  --no-osd --aout jack -f /home/pocketvjpro/Videos/DE_01*
 
 #mplayer does not support all codecs
-mplayer -channels 6 -osdlevel 0 -volume 80 -fs /home/pocketvjpro/Videos/EN_02* >/dev/null &
+mplayer -channels 6 -osdlevel 0 -volume 75 -fs /home/pocketvjpro/Videos/EN_02* >/dev/null &
 #play dbox
 mpv /home/pocketvjpro/Videos/DBOX.wav
 

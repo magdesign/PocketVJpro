@@ -162,6 +162,57 @@ if [ "$MESSAGE" = "volumeunmute" ]
     exit
   fi
 
+if [ "$MESSAGE" = "volume100" ]
+  then
+    ( /var/www/html/sync/stop.sh & )
+    ( sleep 2 )
+    ( sudo cp /var/www/html/sync/START_DE1_100.sh /var/www/html/sync/START_DE1.sh & )
+    ( sudo cp /var/www/html/sync/START_EN1_100.sh /var/www/html/sync/START_EN1.sh & )
+    ( sudo cp /var/www/html/sync/START_FR1_100.sh /var/www/html/sync/START_FR1.sh & )
+    echo "volume100"
+    exit
+  fi
+
+if [ "$MESSAGE" = "volume75" ]
+  then
+    ( /var/www/html/sync/stop.sh & )
+    ( sleep 2 )
+    ( sudo cp /var/www/html/sync/START_DE1_75.sh /var/www/html/sync/START_DE1.sh & )
+    ( sudo cp /var/www/html/sync/START_EN1_75.sh /var/www/html/sync/START_EN1.sh & )
+    ( sudo cp /var/www/html/sync/START_FR1_75.sh /var/www/html/sync/START_FR1.sh & )
+    echo "volume75"
+    exit
+  fi
+
+if [ "$MESSAGE" = "volume60" ]
+  then
+    ( /var/www/html/sync/stop.sh & )
+    ( sleep 2 )
+    ( sudo cp /var/www/html/sync/START_DE1_60.sh /var/www/html/sync/START_DE1.sh & )
+    ( sudo cp /var/www/html/sync/START_EN1_60.sh /var/www/html/sync/START_EN1.sh & )
+    ( sudo cp /var/www/html/sync/START_FR1_60.sh /var/www/html/sync/START_FR1.sh & )
+    echo "volume60"
+    exit
+  fi
+
+if [ "$MESSAGE" = "volume50" ]
+  then
+    ( /var/www/html/sync/stop.sh & )
+    ( sleep 2 )
+    ( sudo cp /var/www/html/sync/START_DE1_50.sh /var/www/html/sync/START_DE1.sh & )
+    ( sudo cp /var/www/html/sync/START_EN1_50.sh /var/www/html/sync/START_EN1.sh & )
+    ( sudo cp /var/www/html/sync/START_FR1_50.sh /var/www/html/sync/START_FR1.sh & )
+    echo "volume50"
+    exit
+  fi
+
+
+
+
+
+########
+# ping #
+########
 
 if [ "$MESSAGE" = "ping" ]
   then
