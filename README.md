@@ -6,3 +6,8 @@ Scripts and CP used on PocketVJpro Ubuntu based media servers.
 
 
 With this setup its possilbe to use an RME Fireface UCX for 5.1 Surround and the regular Pulsaudio stereo channels for D-BOX chair control.
+
+To do:
+
+
+Rename "scripts" folder to "sync"
