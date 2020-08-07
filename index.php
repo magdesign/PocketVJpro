@@ -1,6 +1,6 @@
 <!DOCTYPE html>
  
-<!--  Last Published: Tue Jul 14 2020 10:05:38 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Aug 03 2020 07:18:27 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f05972eeb8ac9df0d7a20a8" data-wf-site="5f05972eeb8ac956167a20a6">
 <head>
   <meta charset="utf-8">
@@ -19,7 +19,7 @@
   <link href="css/pocketvj-cp-exhibition-463fa250d63710f5.webflow.css" rel="stylesheet" type="text/css">
   <script src="../js/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]  }});</script>
-  <!-- [if lt IE 9]><script src="../js/placeholders.min.js" type="text/javascript"></script><![endif] -->
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
@@ -40,7 +40,7 @@ Code  below loads custom js for form submission without reload -->
       <div class="w-row">
         <div class="w-col w-col-6"><a href="https://pocketvj.com/" target="_blank" class="w-inline-block"><img src="images/PVJ_2019.svg" height="50" alt="" class="logo"></a></div>
         <div class="w-col w-col-6">
-          <div class="release">PocketVJ Pro CP 0.1</div>
+          <div class="release">PocketVJ Pro CP 0.2</div>
         </div>
       </div>
     </div>
@@ -131,13 +131,13 @@ Code  below loads custom js for form submission without reload -->
             </div>
             <div class="w-row">
               <div class="w-col w-col-4">
-                <div class="regular-text">Videoname: DE_01</div>
+                <div class="regular-text">Videoname: DE_01.mov</div>
               </div>
               <div class="w-col w-col-4">
-                <div class="regular-text">Videoname: DE_02</div>
+                <div class="regular-text">Videoname: DE_02.mov</div>
               </div>
               <div class="w-col w-col-4">
-                <div class="regular-text">Videoname: DE_03</div>
+                <div class="regular-text">Videoname: DE_03.mov</div>
               </div>
             </div>
             <div class="w-row">
@@ -147,13 +147,13 @@ Code  below loads custom js for form submission without reload -->
             </div>
             <div class="w-row">
               <div class="w-col w-col-4">
-                <div class="regular-text">Videoname: FR_01</div>
+                <div class="regular-text">Videoname: FR_01.mov</div>
               </div>
               <div class="w-col w-col-4">
-                <div class="regular-text">Videoname: FR_02</div>
+                <div class="regular-text">Videoname: FR_02.mov</div>
               </div>
               <div class="w-col w-col-4">
-                <div class="regular-text">Videoname: FR_03</div>
+                <div class="regular-text">Videoname: FR_03.mov</div>
               </div>
             </div>
             <div class="w-row">
@@ -163,13 +163,13 @@ Code  below loads custom js for form submission without reload -->
             </div>
             <div class="w-row">
               <div class="w-col w-col-4">
-                <div class="regular-text">Videoname: EN_01</div>
+                <div class="regular-text">Videoname: EN_01.mov</div>
               </div>
               <div class="w-col w-col-4">
-                <div class="regular-text">Videoname: EN_02</div>
+                <div class="regular-text">Videoname: EN_02.mov</div>
               </div>
               <div class="w-col w-col-4">
-                <div class="regular-text">Videoname: EN_03</div>
+                <div class="regular-text">Videoname: EN_03.mov</div>
               </div>
             </div>
             <div class="w-row">
@@ -206,14 +206,16 @@ Code  below loads custom js for form submission without reload -->
               <div class="w-col w-col-6"></div>
             </div>
             <div class="w-row">
-              <div class="w-col w-col-6"><a href="?action=customfunction1" class="buttonviolett2 action w-button">Custom Function #1</a></div>
+              <div class="w-col w-col-6"><a href="?action=customfunction1" class="buttonviolett2 action w-button">Surround Audiotest</a></div>
               <div class="w-col w-col-6"><a href="?action=customfunction2" class="buttonviolett2 action w-button">Custom Function #2</a></div>
             </div>
             <div class="w-row">
               <div class="w-col w-col-6">
+                <div class="regular-text">Test all 5.1 Channels<br><br>‍<br>‍</div>
+              </div>
+              <div class="w-col w-col-6">
                 <div class="regular-text">these are free buttons for custom code...<br><br>‍<br>‍</div>
               </div>
-              <div class="w-col w-col-6"></div>
             </div>
             <div class="w-row">
               <div class="w-col w-col-3">
@@ -300,6 +302,12 @@ Code  below loads custom js for form submission without reload -->
               <div class="w-col w-col-3"><a href="?action=volume_mute" class="action buttonred w-button">Volume Unmute</a></div>
               <div class="w-col w-col-3"></div>
             </div>
+            <div class="w-row">
+              <div class="w-col w-col-3"><a href="?action=setvolume_100" class="action buttonred w-button">Set Volume to 100%</a></div>
+              <div class="w-col w-col-3"><a href="?action=setvolume_75" class="action buttonred w-button">Set Volume to 75%</a></div>
+              <div class="w-col w-col-3"><a href="?action=setvolume_60" class="action buttonred w-button">Set Volume to 60%</a></div>
+              <div class="w-col w-col-3"><a href="?action=setvolume_50" class="action buttonred w-button">Set Volume to 50%</a></div>
+            </div>
           </div>
         </div>
       </div>
@@ -309,8 +317,6 @@ Code  below loads custom js for form submission without reload -->
     </div>
   </div>
   <script src="../js/jquery-3.3.1.min.js" type="text/javascript"></script>
- 
- 
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="../js/placeholders.min.js"></script><![endif] -->
   <!--  Code below sets the "Set Time" button function -->

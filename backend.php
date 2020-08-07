@@ -250,6 +250,65 @@ if ($_GET['action'] == 'parse') {
 	$outputtext = "$preoutputtext";
 }
 
+if ($_GET['action'] == 'customfunction1') {
+	$outputtext =  "Surround Testfile";
+	system ("sudo su - pocketvjpro -c '/var/www/html/sync/surroundtest.sh &'>  /dev/null 2>&1 ");
+
+}
+
+//#set volume to
+
+if ($_GET['action'] == 'setvolume_100') {
+	$outputtext =  "set volume to 100";
+	system ("sudo /var/www/html/sync/./stop.sh");
+	system("sudo cp /var/www/html/sync/START_DE1_100.sh /var/www/html/sync/START_DE1.sh");
+	system("sudo cp /var/www/html/sync/START_EN1_100.sh /var/www/html/sync/START_EN1.sh");
+	system("sudo cp /var/www/html/sync/START_FR1_100.sh /var/www/html/sync/START_FR1.sh");
+	system("sudo cp /var/www/html/sync/START_DE2_100.sh /var/www/html/sync/START_DE2.sh");
+	system("sudo cp /var/www/html/sync/START_EN2_100.sh /var/www/html/sync/START_EN2.sh");
+	system("sudo cp /var/www/html/sync/START_FR2_100.sh /var/www/html/sync/START_FR2.sh");
+
+
+}
+
+if ($_GET['action'] == 'setvolume_75') {
+	$outputtext =  "set volume to 75";
+	system ("sudo /var/www/html/sync/./stop.sh");
+	system("sudo cp /var/www/html/sync/START_DE1_75.sh /var/www/html/sync/START_DE1.sh");
+	system("sudo cp /var/www/html/sync/START_EN1_75.sh /var/www/html/sync/START_EN1.sh");
+	system("sudo cp /var/www/html/sync/START_FR1_75.sh /var/www/html/sync/START_FR1.sh");
+	system("sudo cp /var/www/html/sync/START_DE2_75.sh /var/www/html/sync/START_DE2.sh");
+	system("sudo cp /var/www/html/sync/START_EN2_75.sh /var/www/html/sync/START_EN2.sh");
+	system("sudo cp /var/www/html/sync/START_FR2_75.sh /var/www/html/sync/START_FR2.sh");
+
+
+}
+
+if ($_GET['action'] == 'setvolume_60') {
+	$outputtext =  "set volume to 60";
+	system ("sudo /var/www/html/sync/./stop.sh");
+	system("sudo cp /var/www/html/sync/START_DE1_60.sh /var/www/html/sync/START_DE1.sh");
+	system("sudo cp /var/www/html/sync/START_EN1_60.sh /var/www/html/sync/START_EN1.sh");
+	system("sudo cp /var/www/html/sync/START_FR1_60.sh /var/www/html/sync/START_FR1.sh");
+	system("sudo cp /var/www/html/sync/START_DE2_60.sh /var/www/html/sync/START_DE2.sh");
+	system("sudo cp /var/www/html/sync/START_EN2_60.sh /var/www/html/sync/START_EN2.sh");
+	system("sudo cp /var/www/html/sync/START_FR2_60.sh /var/www/html/sync/START_FR2.sh");
+
+
+}
+
+if ($_GET['action'] == 'setvolume_50') {
+	$outputtext =  "set volume to 50";
+	system ("sudo /var/www/html/sync/./stop.sh");
+	system("sudo cp /var/www/html/sync/START_DE1_50.sh /var/www/html/sync/START_DE1.sh");
+	system("sudo cp /var/www/html/sync/START_EN1_50.sh /var/www/html/sync/START_EN1.sh");
+	system("sudo cp /var/www/html/sync/START_FR1_50.sh /var/www/html/sync/START_FR1.sh");
+	system("sudo cp /var/www/html/sync/START_DE2_50.sh /var/www/html/sync/START_DE2.sh");
+	system("sudo cp /var/www/html/sync/START_EN2_50.sh /var/www/html/sync/START_EN2.sh");
+	system("sudo cp /var/www/html/sync/START_FR2_50.sh /var/www/html/sync/START_FR2.sh");
+
+}
+
 
 echo $outputtext;
 ?>
