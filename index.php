@@ -131,7 +131,7 @@ Code  below loads custom js for form submission without reload -->
             </div>
             <div class="w-row">
               <div class="w-col w-col-4">
-                <div class="regular-text">Videoname: DE_01.mov</div>
+                <div class="regular-text">Videoname: DE_01.mov / DBOX.wav</div>
               </div>
               <div class="w-col w-col-4">
                 <div class="regular-text">Videoname: DE_02.mov</div>
@@ -147,7 +147,7 @@ Code  below loads custom js for form submission without reload -->
             </div>
             <div class="w-row">
               <div class="w-col w-col-4">
-                <div class="regular-text">Videoname: FR_01.mov</div>
+                <div class="regular-text">Videoname: FR_01.mov / DBOX.wav</div>
               </div>
               <div class="w-col w-col-4">
                 <div class="regular-text">Videoname: FR_02.mov</div>
@@ -163,7 +163,7 @@ Code  below loads custom js for form submission without reload -->
             </div>
             <div class="w-row">
               <div class="w-col w-col-4">
-                <div class="regular-text">Videoname: EN_01.mov</div>
+                <div class="regular-text">Videoname: EN_01.mov / DBOX.wav</div>
               </div>
               <div class="w-col w-col-4">
                 <div class="regular-text">Videoname: EN_02.mov</div>

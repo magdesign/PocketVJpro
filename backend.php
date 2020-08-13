@@ -267,6 +267,9 @@ if ($_GET['action'] == 'setvolume_100') {
 	system("sudo cp /var/www/html/sync/START_DE2_100.sh /var/www/html/sync/START_DE2.sh");
 	system("sudo cp /var/www/html/sync/START_EN2_100.sh /var/www/html/sync/START_EN2.sh");
 	system("sudo cp /var/www/html/sync/START_FR2_100.sh /var/www/html/sync/START_FR2.sh");
+	system("sudo cp /var/www/html/sync/START_DE3_100.sh /var/www/html/sync/START_DE3.sh");
+	system("sudo cp /var/www/html/sync/START_EN3_100.sh /var/www/html/sync/START_EN3.sh");
+	system("sudo cp /var/www/html/sync/START_FR3_100.sh /var/www/html/sync/START_FR3.sh");
 
 
 }
@@ -280,6 +283,9 @@ if ($_GET['action'] == 'setvolume_75') {
 	system("sudo cp /var/www/html/sync/START_DE2_75.sh /var/www/html/sync/START_DE2.sh");
 	system("sudo cp /var/www/html/sync/START_EN2_75.sh /var/www/html/sync/START_EN2.sh");
 	system("sudo cp /var/www/html/sync/START_FR2_75.sh /var/www/html/sync/START_FR2.sh");
+	system("sudo cp /var/www/html/sync/START_DE3_75.sh /var/www/html/sync/START_DE3.sh");
+	system("sudo cp /var/www/html/sync/START_EN3_75.sh /var/www/html/sync/START_EN3.sh");
+	system("sudo cp /var/www/html/sync/START_FR3_75.sh /var/www/html/sync/START_FR3.sh");	
 
 
 }
@@ -293,6 +299,9 @@ if ($_GET['action'] == 'setvolume_60') {
 	system("sudo cp /var/www/html/sync/START_DE2_60.sh /var/www/html/sync/START_DE2.sh");
 	system("sudo cp /var/www/html/sync/START_EN2_60.sh /var/www/html/sync/START_EN2.sh");
 	system("sudo cp /var/www/html/sync/START_FR2_60.sh /var/www/html/sync/START_FR2.sh");
+	system("sudo cp /var/www/html/sync/START_DE3_60.sh /var/www/html/sync/START_DE3.sh");
+	system("sudo cp /var/www/html/sync/START_EN3_60.sh /var/www/html/sync/START_EN3.sh");
+	system("sudo cp /var/www/html/sync/START_FR3_60.sh /var/www/html/sync/START_FR3.sh");	
 
 
 }
@@ -306,6 +315,10 @@ if ($_GET['action'] == 'setvolume_50') {
 	system("sudo cp /var/www/html/sync/START_DE2_50.sh /var/www/html/sync/START_DE2.sh");
 	system("sudo cp /var/www/html/sync/START_EN2_50.sh /var/www/html/sync/START_EN2.sh");
 	system("sudo cp /var/www/html/sync/START_FR2_50.sh /var/www/html/sync/START_FR2.sh");
+	system("sudo cp /var/www/html/sync/START_DE3_50.sh /var/www/html/sync/START_DE3.sh");
+	system("sudo cp /var/www/html/sync/START_EN3_50.sh /var/www/html/sync/START_EN3.sh");
+	system("sudo cp /var/www/html/sync/START_FR3_50.sh /var/www/html/sync/START_FR3.sh");
+
 
 }
 
