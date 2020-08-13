@@ -169,6 +169,12 @@ if [ "$MESSAGE" = "volume100" ]
     ( sudo cp /var/www/html/sync/START_DE1_100.sh /var/www/html/sync/START_DE1.sh & )
     ( sudo cp /var/www/html/sync/START_EN1_100.sh /var/www/html/sync/START_EN1.sh & )
     ( sudo cp /var/www/html/sync/START_FR1_100.sh /var/www/html/sync/START_FR1.sh & )
+    ( sudo cp /var/www/html/sync/START_DE2_100.sh /var/www/html/sync/START_DE2.sh & )
+    ( sudo cp /var/www/html/sync/START_EN2_100.sh /var/www/html/sync/START_EN2.sh & )
+    ( sudo cp /var/www/html/sync/START_FR2_100.sh /var/www/html/sync/START_FR2.sh & )  
+    ( sudo cp /var/www/html/sync/START_DE3_100.sh /var/www/html/sync/START_DE3.sh & )
+    ( sudo cp /var/www/html/sync/START_EN3_100.sh /var/www/html/sync/START_EN3.sh & )
+    ( sudo cp /var/www/html/sync/START_FR3_100.sh /var/www/html/sync/START_FR3.sh & )  
     echo "volume100"
     exit
   fi
@@ -180,6 +186,12 @@ if [ "$MESSAGE" = "volume75" ]
     ( sudo cp /var/www/html/sync/START_DE1_75.sh /var/www/html/sync/START_DE1.sh & )
     ( sudo cp /var/www/html/sync/START_EN1_75.sh /var/www/html/sync/START_EN1.sh & )
     ( sudo cp /var/www/html/sync/START_FR1_75.sh /var/www/html/sync/START_FR1.sh & )
+    ( sudo cp /var/www/html/sync/START_DE2_75.sh /var/www/html/sync/START_DE2.sh & )
+    ( sudo cp /var/www/html/sync/START_EN2_75.sh /var/www/html/sync/START_EN2.sh & )
+    ( sudo cp /var/www/html/sync/START_FR2_75.sh /var/www/html/sync/START_FR2.sh & )
+    ( sudo cp /var/www/html/sync/START_DE3_75.sh /var/www/html/sync/START_DE3.sh & )
+    ( sudo cp /var/www/html/sync/START_EN3_75.sh /var/www/html/sync/START_EN3.sh & )
+    ( sudo cp /var/www/html/sync/START_FR3_75.sh /var/www/html/sync/START_FR3.sh & )
     echo "volume75"
     exit
   fi
@@ -191,6 +203,12 @@ if [ "$MESSAGE" = "volume60" ]
     ( sudo cp /var/www/html/sync/START_DE1_60.sh /var/www/html/sync/START_DE1.sh & )
     ( sudo cp /var/www/html/sync/START_EN1_60.sh /var/www/html/sync/START_EN1.sh & )
     ( sudo cp /var/www/html/sync/START_FR1_60.sh /var/www/html/sync/START_FR1.sh & )
+    ( sudo cp /var/www/html/sync/START_DE2_60.sh /var/www/html/sync/START_DE2.sh & )
+    ( sudo cp /var/www/html/sync/START_EN2_60.sh /var/www/html/sync/START_EN2.sh & )
+    ( sudo cp /var/www/html/sync/START_FR2_60.sh /var/www/html/sync/START_FR2.sh & )
+    ( sudo cp /var/www/html/sync/START_DE3_60.sh /var/www/html/sync/START_DE3.sh & )
+    ( sudo cp /var/www/html/sync/START_EN3_60.sh /var/www/html/sync/START_EN3.sh & )
+    ( sudo cp /var/www/html/sync/START_FR3_60.sh /var/www/html/sync/START_FR3.sh & )
     echo "volume60"
     exit
   fi
@@ -202,6 +220,13 @@ if [ "$MESSAGE" = "volume50" ]
     ( sudo cp /var/www/html/sync/START_DE1_50.sh /var/www/html/sync/START_DE1.sh & )
     ( sudo cp /var/www/html/sync/START_EN1_50.sh /var/www/html/sync/START_EN1.sh & )
     ( sudo cp /var/www/html/sync/START_FR1_50.sh /var/www/html/sync/START_FR1.sh & )
+    ( sudo cp /var/www/html/sync/START_DE2_50.sh /var/www/html/sync/START_DE2.sh & )
+    ( sudo cp /var/www/html/sync/START_EN2_50.sh /var/www/html/sync/START_EN2.sh & )
+    ( sudo cp /var/www/html/sync/START_FR2_50.sh /var/www/html/sync/START_FR2.sh & )
+    ( sudo cp /var/www/html/sync/START_DE3_50.sh /var/www/html/sync/START_DE3.sh & )
+    ( sudo cp /var/www/html/sync/START_EN3_50.sh /var/www/html/sync/START_EN3.sh & )
+    ( sudo cp /var/www/html/sync/START_FR3_50.sh /var/www/html/sync/START_FR3.sh & )
+
     echo "volume50"
     exit
   fi

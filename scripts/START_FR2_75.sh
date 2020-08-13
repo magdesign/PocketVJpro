@@ -15,7 +15,7 @@ sleep 1
 #mplayer does not support all codecs
 mplayer -channels 6 -osdlevel 0 -volume 75 -fs /home/pocketvjpro/Videos/FR_02* >/dev/null &
 #play dbox
-mpv /home/pocketvjpro/Videos/DBOX.wav
+#mpv /home/pocketvjpro/Videos/DBOX.wav
 
 
 #clean desktop
